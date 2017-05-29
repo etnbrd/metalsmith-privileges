@@ -31,7 +31,7 @@ metalsmith
   .use(privileges({
     // Select only files that match the pattern
     pattern: '*'
-    // yaml key for tag list in you pages
+    // The handle to specify privileges in the frontmatter
     handle: 'privileges',
     // The default privilege to apply to pages
     defaultPrivilege: 'public',

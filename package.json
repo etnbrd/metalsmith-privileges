@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-privileges",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "A metalmith plugin to allow several levels of privilege for a static website",
   "main": "lib/index.js",
   "scripts": {
