@@ -1,0 +1,23 @@
+{
+  "name": "metalsmith-privileges",
+  "version": "0.0.1",
+  "description": "A metalmith plugin to allow several levels of privilege for a static website",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etnbrd/metalsmith-privileges.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "privileges"
+  ],
+  "author": "etnbrd <npm@etnbrd.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etnbrd/metalsmith-privileges/issues"
+  },
+  "homepage": "https://github.com/etnbrd/metalsmith-privileges#readme"
+}
