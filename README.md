@@ -36,7 +36,14 @@ metalsmith
     // The default privilege to apply to pages
     defaultPrivilege: 'public',
     // The default key to store privileges in Metadata
+    // The files are kept in two structures :
+    // - an object named after privilegesKey
+    // - an array named privilegesKey + 'Array'
     privilegesKey: 'privileges',
+    // Sort the array holding the files
+    sortBy = 'date';
+    // Reverse the array holding the files
+    reverse = false;
     // The default key to generate the hashes
     // /!\ You should specify this value with a unique key
     key: '____';
