@@ -11,7 +11,7 @@ Each non-public file is given a hash in its filename.
 
 ## Usage
 
-### In the frontmatter:
+### In the page:
 
 ```
 ---
@@ -21,6 +21,8 @@ privileges: private
 ```
 
 You can use different handle to define the level of privileges, by configuring the `handle` option. `privileges` is the default.
+
+All the links to local files will be updated to point to the privileged files.
 
 ### In the build
 
@@ -59,7 +61,7 @@ metalsmith
   }));
 ```
 
-## In your template
+## In the template
 
 You can gather all the posts from the current privilege, to build an index or a menu.
 
