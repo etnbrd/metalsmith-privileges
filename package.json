@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-privileges",
-  "version": "0.0.4-1",
+  "version": "0.0.4-2",
   "description": "A metalmith plugin to allow several levels of privilege for a static website",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/etnbrd/metalsmith-privileges/issues"
   },
   "homepage": "https://github.com/etnbrd/metalsmith-privileges#readme",
-  "devDependencies": {
+  "dependencies": {
     "cheerio": "^1.0.0-rc.2"
   }
 }
